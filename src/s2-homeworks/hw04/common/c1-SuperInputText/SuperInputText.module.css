@@ -2,6 +2,13 @@
 }
 
 .input {
+    width: 372px;
+    padding: 8px 12px;
+    font-size: 16px;
+    color: #000;
+    border: 1px solid #D1D1D1;
+    border-radius: 5px;
+
 }
 
 .inputWrapper {
@@ -11,6 +18,7 @@
 }
 
 .errorInput {
+    border-color: #CC0000;
 }
 
 .errorInput:focus {

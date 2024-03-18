@@ -1,19 +1,41 @@
 .button {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 24px;
+    background-color: #0066CC;
+    opacity: 1;
+    border-radius: 3px;
+    color: #fff;
+    text-transform: capitalize;
+    border: none;
+    align-self: start;
 }
 
 .disabled {
+    color: #002E5C;
+    background-color: #004D99;
+    opacity: .5;
 }
 
 .secondary {
+    background-color: transparent;
+    border: 1px solid #0066CC;
+    color: #0066CC;
 }
 
 .default {
 }
 
 .red {
+    background-color: #CC1439;
 }
 
 .default:hover {
+}
+
+.button:hover:not(.disabled) {
+    cursor: pointer;
 }
 
 .red:hover {
